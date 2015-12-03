@@ -1,0 +1,14 @@
+package com.orangehrm.testsuite;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+public class CapturingScreenshot extends Constants{
+	@Test
+	public void screenshotTest() throws IOException
+	{
+		sc.takingscreenshot(driver,screenshotPath+"\\addemp.png");
+	}
+
+}

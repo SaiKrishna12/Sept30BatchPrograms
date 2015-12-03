@@ -1,0 +1,8 @@
+<suite name="OrangeHRM Suite"  >
+  <test name="On Firefox" >
+    <classes>
+       <class name="com.orangehrm.testsuite.Login"/>
+	   <class name="com.orangehrm.testsuite.AddEmployee"/>
+    </classes>
+  </test>
+ </suite>

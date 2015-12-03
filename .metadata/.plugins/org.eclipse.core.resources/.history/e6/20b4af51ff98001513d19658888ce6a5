@@ -1,0 +1,17 @@
+package com.orangehrm.testsuite;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import com.orangehtm.utility.ExcelOperations;
+import com.orangehtm.utility.Screenshot;
+
+
+public class Constants {
+	ExcelOperations eo=new ExcelOperations();
+	Screenshot sc=new Screenshot();
+	static FirefoxDriver driver;
+	String emplistPath="E:\\Sep30Batch\\OrangeHRM\\src\\com\\orangehrm\\excelfiles\\EmployeeList.xlsx";
+	String screenshotPath="E:\\Sep30Batch\\OrangeHRM\\src\\com\\orangehrm\\screenshots";
+	String dataEnginePath="E:\\Sep30Batch\\OrangeHRM\\src\\com\\orangehrm\\dataengine\\DataEngine.xlsx";
+}

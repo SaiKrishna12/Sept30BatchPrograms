@@ -1,0 +1,10 @@
+package com.orangehrm.testsuite;
+
+import org.openqa.selenium.WebDriver;
+
+
+public class Constants {
+	
+	static WebDriver driver=null;
+
+}

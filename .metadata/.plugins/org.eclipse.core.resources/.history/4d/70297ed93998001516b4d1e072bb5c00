@@ -1,0 +1,13 @@
+package com.orangehrm.testsuite;
+
+import org.testng.annotations.Test;
+
+public class AddEmployee extends Constants{
+	
+	@Test
+	public void addEmployeeTest()
+	{
+		
+	}
+
+}

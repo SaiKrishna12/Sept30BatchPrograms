@@ -1,0 +1,7 @@
+Feature: Login and logout functionality of OrnageHRM
+
+Scenario: Login Test
+	Given the browser is launched and the url is navigated to url
+	When the tester enters valid username and passowrd
+	And clicks on the login button
+	Then welcome admin msg is diplayed

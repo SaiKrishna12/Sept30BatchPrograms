@@ -1,0 +1,13 @@
+package com.orangehrm.testsuite;
+
+import org.openqa.selenium.WebDriver;
+
+import com.orangehtm.utility.ExcelOperations;
+
+
+public class Constants {
+	ExcelOperations eo=new ExcelOperations();
+	static WebDriver driver=null;
+	String emplistPath="E:\\Sep30Batch\\OrangeHRM\\src\\com\\orangehrm\\excelfiles\\EmployeeList.xlsx";
+
+}

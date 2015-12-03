@@ -1,0 +1,19 @@
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import com.relevantcodes.extentreports.ExtentReports;
+
+
+public class ExtentReportsExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ExtentReports reports=new  ExtentReports(filePath)
+		FirefoxDriver driver=new FirefoxDriver();
+		driver.get("http://google.com");
+		
+
+	}
+
+}
